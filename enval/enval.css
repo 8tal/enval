@@ -1,0 +1,24 @@
+/* #4A96A6
+● #E7F9FD */
+.contenar{
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 250px;
+}
+input{
+   width: 350px;
+   height: 30px;
+   border-radius: 5px;
+   border: none;
+   background-color:#E7F9FD ;
+}
+button{
+   width: 350px;
+   height: 30px;
+   border-radius: 5px;
+   border: none;
+   background: #4A96A6;
+   text-decoration: white
+}

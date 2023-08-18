@@ -1,0 +1,154 @@
+
+:root {
+    --dot-diameter: 150px;
+    --circle-border-width: 3px;
+    --default-color: gainsboro;
+    font-family: 'Lilita One', cursive;
+  }
+  
+  
+  
+  span {
+    color: transparent;
+  }
+  
+  .circle-container {
+    width: var(--dot-diameter);
+    height: var(--dot-diameter);
+    transform: rotate(-225deg);
+    fill: none;
+    stroke-dasharray: 75 100;
+    stroke-linecap: round;
+    margin-left: 12%;
+  }
+  
+  .circle-container__background {
+    fill: none;
+    stroke: var(--default-color);
+    stroke-width: var(--circle-border-width);
+    stroke-dasharray: 75 100;
+    stroke-linecap: round;
+  }
+  
+  .circle-container__progress {
+    stroke-linecap: round;
+    stroke: url(#gradient);
+    stroke-dasharray: 75 100;
+    stroke-linecap: round;
+    stroke-width: var(--circle-border-width);
+    transition: stroke-dashoffset 1s ease-in-out;
+    
+
+  }
+  
+  .stop1 {
+    stop-color: white;
+  }
+  
+  .stop2 {
+    stop-color: white;
+  }
+  .start{
+    width: 30px;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 30%
+  }
+#cen{
+  margin-left: 25%;
+ color: white;
+}
+  .cer{
+    margin-top: 44%;
+  }
+  .pa{
+    display: flex;
+    text-align: center;
+   
+  }
+  #si{
+margin-left: 20%;
+color:white;
+position: absolute;
+  }
+  .circle{
+   position: absolute;
+   bottom: 12%;
+   display: flex;
+   margin-left: 22%;
+  }
+  .ta{
+    margin-top: 15%;
+  }
+  .card-body{
+    border-radius: 16px;
+  }
+
+
+
+  dszfg
+  #cent{
+    margin-left: 25%;
+   color: rgb(188, 140, 140);
+  }
+    .car{
+      margin-top: 44%;
+    }
+    .po{
+      display: flex;
+      text-align: center;
+     
+    }
+    #so{
+  margin-left: 20%;
+  color:rgb(1, 1, 1);
+  position: absolute;
+  margin-top: 18%;
+    }
+    .corcle{
+     position: absolute;
+     bottom: 12%;
+     display: flex;
+     margin-left: 22%;
+    }
+    .ta{
+      margin-top: 15%;
+    }
+    .card-boda{
+      border-radius: 16px;
+    }
+    .circle-container__background1{
+      fill: none;
+      stroke: #fff;
+      stroke-width: var(--circle-border-width);
+      stroke-dasharray: 11 000;
+      stroke-linecap: round;
+    }
+    
+    .circle-container__progress1 {
+      stroke-linecap: round;
+      stroke: url(#gradient1);
+      stroke-dasharray: 20 900;
+      stroke-linecap: round;
+      stroke-width: var(--circle-border-width);
+      transition: stroke-dashoffset 1s ease-in-out;
+      
+  
+    }
+    .stop4 {
+      stop-color: rgba(32, 143, 153, 0.854);
+    }
+    
+    .stop3 {
+      stop-color: rgba(32, 143, 153, 0.854);
+    }
+    .stort{
+      width: 30px;
+      color:rgba(32, 143, 153, 0.854);
+      display: flex;
+      align-items: center;
+      margin-left: 30%
+    }
+
+    
